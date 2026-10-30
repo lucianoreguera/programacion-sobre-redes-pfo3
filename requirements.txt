@@ -1,0 +1,5 @@
+# El proyecto funciona íntegramente con la biblioteca estándar de Python
+# (socket, threading, queue, concurrent.futures, sqlite3, json, hashlib).
+# Werkzeug es opcional: si está instalado se usa para el hash scrypt; de lo
+# contrario, servidor.py utiliza hashlib.scrypt de la biblioteca estándar.
+Werkzeug==3.1.9

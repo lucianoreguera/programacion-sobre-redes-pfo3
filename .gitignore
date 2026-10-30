@@ -1,0 +1,13 @@
+# Entorno virtual
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Base de datos local (se genera al ejecutar el servidor)
+*.db
+
+# Editor / SO
+.vscode/
+.DS_Store
